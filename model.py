@@ -2,6 +2,8 @@ from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings,ChatOpenAI
+from langchain_core.prompts import ChatPromptTemplate
+
 
 
 
@@ -12,7 +14,6 @@ BASE_URL = "https://ai.hackclub.com/proxy/v1"
 
 # rag
 
-pdfs=["CAP_Proposal.pdf","protof.pdf"]
 
 embedding_model= OpenAIEmbeddings(
     model="openai/text-embedding-3-small",
@@ -20,26 +21,26 @@ embedding_model= OpenAIEmbeddings(
     base_url=BASE_URL
 )
 
+# pdfs=["CAP_Proposal.pdf","protof.pdf"]
 # print(embedding_model.embed_query("hello"))
-all_pages=[]
-for file in pdfs:
-    loader=PyPDFLoader(file)
-    pages=loader.load()
-    all_pages.extend(pages)
+# all_pages=[]
+# for file in pdfs:
+#     loader=PyPDFLoader(file)
+#     pages=loader.load()
+#     all_pages.extend(pages)
     
 
-pages_splitter=RecursiveCharacterTextSplitter(
-    chunk_size=500,
-    chunk_overlap=100
-)
+# pages_splitter=RecursiveCharacterTextSplitter(
+#     chunk_size=500,
+#     chunk_overlap=100
+# )
 
-chunks= pages_splitter.split_documents(all_pages)
+# chunks= pages_splitter.split_documents(all_pages)
 
 
-data_rag = Chroma.from_documents(
-    chunks,
-    embedding=embedding_model,
-    persist_directory="./db"
+data_rag = Chroma(
+    persist_directory="./db",
+    embedding_function=embedding_model
 )
 
 # LLM
@@ -50,5 +51,42 @@ llm=ChatOpenAI(
     base_url=BASE_URL
 )
 
+
+
+
+
+prompt=ChatPromptTemplate.from_messages([
+    ("system","""
+     You are a helpful assistant. Use only the context.
+     """),
+    ("human","""
+     context:
+     {context}
+     
+     
+     question: 
+     {question}
+     
+     """)]
+)
+
+def context(qs):
+    
+    retriever_data=data_rag.as_retriever(search_kwargs={"k":5}).invoke(qs)
+    
+    retriever_data= "\n\n".join([
+        f"{doc.page_content}" for doc in retriever_data
+    ])
+    
+    return retriever_data
+
+def response(user_input):
+    message=prompt.format_messages(
+        context=context(user_input),
+        question=user_input)
+    
+    response=llm.invoke(message)
+    
+    return response.content
 
 
