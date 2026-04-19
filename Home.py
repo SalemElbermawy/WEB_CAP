@@ -2,10 +2,8 @@ import streamlit as st
 import base64
 from pathlib import Path
 
-# ── Page config ───────────────────────────────────────────────
 st.set_page_config(page_title="Our Team", page_icon="💧", layout="wide")
 
-# ── Helper: local image → base64 data URI ─────────────────────
 def img_to_b64(path: str) -> str:
     p = Path(path)
     if not p.exists():
@@ -21,7 +19,6 @@ def resolve(src: str) -> str:
         return src
     return img_to_b64(src)
 
-# ── CSS ──────────────────────────────────────────────────────
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap');
@@ -123,11 +120,9 @@ html, body, [class*="css"], .stApp {
 """, unsafe_allow_html=True)
 
 
-# ══════════════════════════════════════════════════════════════
-#  ✏️  EDIT HERE — put your file names or URLs
-# ══════════════════════════════════════════════════════════════
 
-HERO_IMAGE = "salem3.jpg"        # ← your big image (same folder as this script)
+
+HERO_IMAGE = "salem3.jpg"        
 
 TEAM_MEMBERS = [
     {"name": "Anas Hessen",   "role": "Team Lead",   "image": "salem.jpg"},
@@ -136,9 +131,7 @@ TEAM_MEMBERS = [
     {"name": "Salem Elbermawy",  "role": "Researcher",  "image": "salem.jpg"},
 ]
 
-# ══════════════════════════════════════════════════════════════
 
-# Hero title
 st.markdown("""
 <div class="hero-wrapper">
     <p class="hero-sub">✦ &nbsp; Welcome to &nbsp; ✦</p>
@@ -148,7 +141,7 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
-# Banner
+
 hero_src = resolve(HERO_IMAGE)
 if hero_src:
     st.markdown(f"""
@@ -160,7 +153,6 @@ if hero_src:
 else:
     st.warning(f"⚠️ Image '{HERO_IMAGE}' not found — place it in the same folder as this script.")
 
-# Team grid
 st.markdown('<p class="section-label">Meet the Team</p>', unsafe_allow_html=True)
 cols = st.columns(4, gap="large")
 
