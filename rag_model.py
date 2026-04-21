@@ -37,6 +37,11 @@ embedding_model= OpenAIEmbeddings(
 
 # chunks= pages_splitter.split_documents(all_pages)
 
+# data_rag = Chroma.from_documents(
+#     chunks,
+#     embedding=embedding_model,
+#     persist_directory="./db"
+# )
 
 data_rag = Chroma(
     persist_directory="./db",
