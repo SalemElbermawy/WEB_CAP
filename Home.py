@@ -125,10 +125,10 @@ html, body, [class*="css"], .stApp {
 HERO_IMAGE = "cap.jpg"        
 
 TEAM_MEMBERS = [
-    {"name": "Anas Hessen",   "role": "Team Lead",   "image": "anas.jpg"},
-    {"name": "Mohamed Shawky",   "role": "Developer",   "image": "shawky.jpg"},
-    {"name": "Mohamed Hamdy", "role": "Designer",    "image": "hamdy.jpg"},
-    {"name": "Salem Elbermawy",  "role": "Researcher",  "image": "salem.jpg"},
+    {"name": "Anas Hessen",   "role": "Team Lead",   "image": "hamdy.jpg"},
+    {"name": "Mohamed Shawky",   "role": "Circuit_Specializes",   "image": "shawky.jpg"},
+    {"name": "Mohamed Hamdy", "role": "Designer",    "image": "anas.jpg"},
+    {"name": "Salem Elbermawy",  "role": "Data_Analysit",  "image": "salem.jpg"},
 ]
 
 

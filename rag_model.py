@@ -73,6 +73,7 @@ Rules you must follow:
 - If the question is unclear, ask for clarification before answering.
 - Always respond in the same language the user is using (Arabic or English).
 - Never make up facts, names, or figures.
+- You can just answer the relative question to the prototype and project and the normal message like "hello"
 """),
     
     ("human","""
