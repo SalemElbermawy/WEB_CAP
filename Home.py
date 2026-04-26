@@ -126,7 +126,7 @@ HERO_IMAGE = "cap.jpg"
 
 TEAM_MEMBERS = [
     {"name": "Anas Hessen",   "role": "Team Lead",   "image": "hamdy.jpg"},
-    {"name": "Mohamed Shawky",   "role": "Circuit_Specializes",   "image": "shawky.jpg"},
+    {"name": "Mohamed Shawky",   "role": "Hardware Implementer",   "image": "shawky.jpg"},
     {"name": "Mohamed Hamdy", "role": "Designer",    "image": "anas.jpg"},
     {"name": "Salem Elbermawy",  "role": "Data_Analysit",  "image": "salem.jpg"},
 ]
