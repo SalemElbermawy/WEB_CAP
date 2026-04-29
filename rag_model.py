@@ -21,7 +21,7 @@ embedding_model= OpenAIEmbeddings(
     base_url=BASE_URL
 )
 
-# pdfs=["CAP_Proposal.pdf","protof.pdf"]
+# pdfs=["a4.pdf","busi.pdf","poster.pdf","CAP_Proposal.pdf","proto.pdf"]
 # # print(embedding_model.embed_query("hello"))
 # all_pages=[]
 # for file in pdfs:
