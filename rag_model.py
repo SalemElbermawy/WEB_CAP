@@ -74,6 +74,8 @@ Rules you must follow:
 - Always respond in the same language the user is using (Arabic or English).
 - Never make up facts, names, or figures.
 - You can just answer the relative question to the prototype and project and the normal message like "hello"
+- NEVER use Markdown formatting of any kind: no **, no *, no #, no -, no backticks, no bullet points.
+
 """),
     
     ("human","""

@@ -32,14 +32,12 @@ html, body, [class*="css"], .stApp {
 #MainMenu, footer, header { visibility: hidden; }
 .block-container { padding: 2rem 2rem 3rem !important; max-width: 820px; }
 
-/* Sidebar */
 section[data-testid="stSidebar"] {
     background: var(--bg) !important;
     border-right: 1px solid var(--border) !important;
 }
 section[data-testid="stSidebar"] * { color: var(--text) !important; }
 
-/* ── Top bar ── */
 .topbar {
     text-align: center;
     padding: 2rem 0 1.5rem;
@@ -79,7 +77,6 @@ section[data-testid="stSidebar"] * { color: var(--text) !important; }
     margin: 0.8rem auto 0;
 }
 
-/* ── Messages ── */
 .chat-wrap {
     display: flex;
     flex-direction: column;
@@ -127,12 +124,10 @@ section[data-testid="stSidebar"] * { color: var(--text) !important; }
     border-bottom-right-radius: 4px;
 }
 
-/* ── Empty state ── */
 .empty-state { text-align: center; padding: 3rem 1rem; color: var(--muted); }
 .empty-icon  { font-size: 2.8rem; margin-bottom: 1rem; opacity: 0.45; }
 .empty-text  { font-size: 0.83rem; letter-spacing: 0.08em; line-height: 1.9; }
 
-/* ── Input styling ── */
 div[data-testid="stTextInput"] input {
     background: var(--surface2) !important;
     border: 1px solid var(--border) !important;
@@ -153,7 +148,6 @@ div[data-testid="stTextInput"] input::placeholder {
     opacity: 0.6;
 }
 
-/* Send button */
 div[data-testid="stFormSubmitButton"] button {
     background: linear-gradient(135deg, var(--aqua-dark), var(--aqua)) !important;
     color: #04191a !important;
@@ -170,7 +164,6 @@ div[data-testid="stFormSubmitButton"] button {
 }
 div[data-testid="stFormSubmitButton"] button:hover { opacity: 0.85 !important; }
 
-/* Clear button */
 div[data-testid="stButton"] > button {
     background: transparent !important;
     border: 1px solid var(--border) !important;
