@@ -1,3 +1,64 @@
+# Please look at that these are my evidence of using less than 30% or 20% also of my coding this project 
+
+## the largest part of my coding is ipynb which I use it to make preprocessing which i get from my project and do graphs to show the results of it
+
+## Whole video of 6 hrs of testing the project and collect the data
+
+
+
+## and these are of part of collecting the data
+https://drive.google.com/file/d/11LyeMj-K_LkzqmyRUHzKQCUE7Hno5zOc/view?usp=drive_link
+
+
+
+
+
+## and you can seee these files of collecting data and preprocessing of it
+
+<img width="220" height="282" alt="image" src="https://github.com/user-attachments/assets/f11fc37e-63ea-4e75-ab15-f5fe962b9c9a" />
+
+## this is the part of graphs which I written thier code line by line to show my results
+
+<img width="228" height="388" alt="image" src="https://github.com/user-attachments/assets/b3e109aa-415f-46f2-a377-427a083bb508" />
+
+## Some thing like this part of the code for the core of the RAG model I have coded it line by line and you can detect that as you want
+
+  <img width="1443" height="776" alt="image" src="https://github.com/user-attachments/assets/2f158eea-47ab-4a85-bcbf-f9e3fd9ddec2" />
+
+## And i used AI in this file to just present my work in ui not just in the terminal. So all of that is my pure idea and work but I just do the UI and front end by AI
+
+<img width="786" height="700" alt="image" src="https://github.com/user-attachments/assets/7464c161-a341-4d95-a1aa-5ee4cb130e2b" />
+
+
+
+
+## I used AI tool here to make me present the graphs which I collected thier data by my self and write the code of presenting it by my self too
+
+  <img width="1217" height="461" alt="image" src="https://github.com/user-attachments/assets/7e5459bc-24da-49ee-87a4-7f7855c1ae5e" />
+
+
+## all of the following work are pure from me and I coded it by myself
+
+<img width="1357" height="884" alt="image" src="https://github.com/user-attachments/assets/ea066ec0-5c89-4c9d-94b2-394fbdb4e186" />
+
+<img width="1647" height="526" alt="image" src="https://github.com/user-attachments/assets/0ea8553a-bfe7-4242-8a5f-804e390618ad" />
+<img width="1591" height="657" alt="image" src="https://github.com/user-attachments/assets/81a36406-c3a1-49c9-a2dd-fba44610becb" />
+
+<img width="1334" height="860" alt="image" src="https://github.com/user-attachments/assets/9adcd9a9-f9de-4bc4-ae80-395435595ac9" />
+<img width="1634" height="559" alt="image" src="https://github.com/user-attachments/assets/81961927-c905-45f1-adbb-c06168960cf9" />
+
+
+
+
+## Finally I was proud of my idea and my work. I know and understand LLM,Machine Learning, DEEP Learning, and DATA Analysit very well but I can't present them in good UI all my work just in terminal so I have used AI to solve this problem and THANKS
+
+
+
+
+
+
+
+
 # Home page of the website 
 
 <img width="1474" height="823" alt="image" src="https://github.com/user-attachments/assets/724e010e-df09-4c47-b976-0006e34c223e" />
