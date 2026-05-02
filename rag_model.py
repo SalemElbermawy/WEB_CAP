@@ -9,7 +9,7 @@ from langchain_core.prompts import ChatPromptTemplate
 
 
 # api of hack_club
-API_KEY  = "sk-hc-v1-db90d76b606d4229aa4e0afb3379d70d701eb38801194d998ff7dccf38f77667"
+API_KEY  = "sk-hc-v1-94fd9ea26a97433596ea7f624b070ef67ca18e2da6964b7aa7a1b578d6637328"
 BASE_URL = "https://ai.hackclub.com/proxy/v1"
 
 # rag
