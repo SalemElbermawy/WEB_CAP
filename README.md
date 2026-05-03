@@ -61,7 +61,7 @@ https://drive.google.com/file/d/11LyeMj-K_LkzqmyRUHzKQCUE7Hno5zOc/view?usp=drive
 - I have worked on the project in my school for helping the environment by do aquaponics project solve the problem of lacking of agriculture and over irregation 
 - This is the photo of the project in the evaluating stage
 <img width="964" height="1280" alt="proto" src="https://github.com/user-attachments/assets/d0f7fa22-b7c3-40ca-ab6f-292c16e51c63" />
-### So I have decided to do a website can present 5 Main categories
+## So I have decided to do a website can present 5 Main categories
 - Presenting our team in Home page
 - RAG MODEL know everything about our project like team members, electronics parts which we have used in this project, the scientific base which we have depended on it and you can try and ask it many question as you want to check that
 - The are two pages for presenting the results of the project and montring of the sensors
