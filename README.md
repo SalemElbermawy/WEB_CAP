@@ -1,3 +1,4 @@
+## LOOK AT THE BOTTOM TO SHOW THE DESCRIBTION OF THE WEBSITE
 # Please look at that these are my evidence of using less than 30% or 20% also of my coding this project 
 
 ## the largest part of my coding is ipynb which I use it to make preprocessing which i get from my project and do graphs to show the results of it
@@ -54,16 +55,26 @@ https://drive.google.com/file/d/11LyeMj-K_LkzqmyRUHzKQCUE7Hno5zOc/view?usp=drive
 
 
 
+#  ----------------------------------
+# IDEA OF WEBSITE
+
+- I have worked on the project in my school for helping the environment by do aquaponics project solve the problem of lacking of agriculture and over irregation 
+- This is the photo of the project in the evaluating stage
+<img width="964" height="1280" alt="proto" src="https://github.com/user-attachments/assets/d0f7fa22-b7c3-40ca-ab6f-292c16e51c63" />
+### So I have decided to do a website can present 5 Main categories
+- Presenting our team in Home page
+- RAG MODEL know everything about our project like team members, electronics parts which we have used in this project, the scientific base which we have depended on it and you can try and ask it many question as you want to check that
+- The are two pages for presenting the results of the project and montring of the sensors
+- And the test graph page is for upload our data and select any part to present it graphically
+- The goal of all of these to make the evluator know everything about project and how much are we honest in that project and make anyone as you ask the model and know everything and check the results by graphs too.
+- in the below section there are many screen shots can clarify that
 
 
-
-
-
-# Home page of the website 
+### Home page of the website 
 
 <img width="1474" height="823" alt="image" src="https://github.com/user-attachments/assets/724e010e-df09-4c47-b976-0006e34c223e" />
 
-# Home page of the website
+### Home page of the website
 
 <img width="1468" height="536" alt="image" src="https://github.com/user-attachments/assets/02636c55-305f-4048-b2f0-291863be8065" />
 
@@ -81,10 +92,10 @@ asking about electric components
 
 <img width="1062" height="741" alt="image" src="https://github.com/user-attachments/assets/ec355610-68fb-4de2-bdc2-15b18f8d5043" />
 
-## And so on ( you can make the evluator ask it any question related to our project
+### And so on ( you can make the evluator ask it any question related to our project
 
 
-# The back end or the main files of the website
+### The back end or the main files of the website
 
 - rag_model.py
 - test_five.ipynb
@@ -92,11 +103,11 @@ asking about electric components
 - deviation.ipynb
 - and all files of the .csv files
 
-## All these files i written thier code line by line and the csv file of collecting data i have collected it from my project and the main sensors { ultrasonic, tempreture , light intensity }
+### All these files i written thier code line by line and the csv file of collecting data i have collected it from my project and the main sensors { ultrasonic, tempreture , light intensity }
 ### I have used AI to present all of that in very basic front end and UI
 - And these files are Home.py and the folder of tha pages
 
-## HOW to use it 
+### HOW to use it 
 
 - home page , model , graphs are very easy to use them
 - But the Test graphs you must upload numerical data so if you want to test it you can download file from the data_sets folder and use any data to test this page
