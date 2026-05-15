@@ -1,3 +1,6 @@
+# I have done 4 pages without AI and in very simple ui by very easy and simple code and this in all pages except " Test_Graphs "
+
+
 ## LOOK AT THE BOTTOM TO SHOW THE DESCRIBTION OF THE WEBSITE
 # Please look at that these are my evidence of using less than 30% or 20% also of my coding this project 
 
