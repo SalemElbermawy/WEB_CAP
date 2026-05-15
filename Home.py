@@ -29,8 +29,9 @@ for index,member in enumerate(team):
             
         except:
             st.write("Not Founded ⚠️")
-        
-        st.markdown(f"**{member["name"]}**")
+
+        member_ol=member["name"]
+        st.markdown("** " + member_ol + " **")
         st.caption(member["role"])
         
 st.write("---")
