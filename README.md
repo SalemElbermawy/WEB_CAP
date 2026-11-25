@@ -1,4 +1,4 @@
-# I have done 4 pages without AI and in very simple ui by very easy and simple code and this in all pages except " Test_Graphs "
+# I have done 4 pages and in very simple ui by very easy and simple code and this in all pages except " Test_Graphs "
 
 ## LOOK AT THE BOTTOM TO SHOW THE DESCRIBTION OF THE WEBSITE
 
@@ -98,12 +98,6 @@ asking about electric components
 
 <img width="1334" height="860" alt="image" src="https://github.com/user-attachments/assets/9adcd9a9-f9de-4bc4-ae80-395435595ac9" />
 <img width="1634" height="559" alt="image" src="https://github.com/user-attachments/assets/81961927-c905-45f1-adbb-c06168960cf9" />
-#  ----------------------------------
-
-
-
-## Finally I was proud of my idea and my work.
-
 
 
 
